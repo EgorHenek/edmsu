@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=cyrillic,latin);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+a :hover {
+    text-decoration: underline;
+}
+.navbar {
+background-color: #000;
+border-color: #000;
+border-radius: 0px;
+}
+.navbar a.navbar-brand {padding: 9px 15px 8px; }
+.logo {
+    weight: 124px;
+    height: 40px;
+}
+.topHome {
+    position: fixed; 
+    bottom: 60px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.b-share_theme_counter .b-share {
+    padding: 0 !important;
+}
+ 
+.b-share_theme_counter .b-share__link {
+    border-radius: 0px !important;
+    background-color: #555 !important;
+}
+ 
+.b-share_theme_counter .b-share__link:hover {
+    opacity: 0.8;
+}
+ 
+.b-share_theme_counter .b-share-icon {
+    background-image: url('../images/b-share_counter_large.png') !important; 
+}
+ 
+.b-share_theme_counter .b-share-counter {
+    color: #fff;
+}
